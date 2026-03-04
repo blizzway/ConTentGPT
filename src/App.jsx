@@ -120,7 +120,7 @@ function Sidebar({ active, setActive, history, onHistorySelect, collapsed, setCo
               marginTop: 10, width: "100%", background: "linear-gradient(135deg, #f97316, #ef4444)",
               border: "none", borderRadius: 7, color: "#fff", fontSize: 12, fontWeight: 700,
               padding: "7px", cursor: "pointer", fontFamily: "inherit", boxShadow: "0 0 18px rgba(249,115,22,0.5)"
-            }}>Upgrade to Pro ✦</button>
+            }} onClick={() => window.open('https://contentgpt.lemonsqueezy.com/checkout/buy/52e9f00d-1269-4819-a8e8-d3cd91f484ed', '_blank')}>Upgrade to Pro ✦</button>
           </div>
         </div>
       )}
